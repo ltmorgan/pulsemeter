@@ -42,3 +42,65 @@
 		text-decoration: underline
 		&:hover
 			color: $main_color
+
+@media (max-width: 991px)
+	.advantages
+		padding: 50px 0 50px 0
+		&__icon
+			width: 203px
+
+@media (max-width: 767px)
+	.advantages
+		&__icons
+			flex-direction: column
+			justify-content: space-between
+			align-items: center
+		&__icon
+			margin-top: 60px
+			width: 380px
+		&__name
+			font-size: 30px
+		&__descr
+			font-size: 18px
+		&__header
+			font-size: 33px
+
+@media (max-width: 425px)
+	.advantages
+		&__icons
+			flex-direction: column
+			justify-content: space-between
+			align-items: center
+		&__icon
+			margin-top: 60px
+			width: 360px
+		&__name
+			font-size: 28px
+		&__descr
+			font-size: 14px
+		&__header
+			font-size: 26px
+
+@media (max-width: 375px)
+	.advantages
+		&__icon
+			margin-top: 50px
+		&__name
+			font-size: 28px
+		&__descr
+			font-size: 14px
+		&__header
+			font-size: 26px
+
+@media (max-width: 320px)
+	.advantages
+		&__icon
+			margin-top: 50px
+			width: 300px
+		&__name
+			font-size: 27px
+		&__descr
+			font-size: 14px
+		&__header
+			font-size: 24px
+		
